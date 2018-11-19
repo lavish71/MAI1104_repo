@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<div id = "list"><button onclick="divid()">Click Here</button></div>
+<script>
+	function divid()
+	{
+		var mypara = document.createElement("p");
+		var text = document.createTextNode("Hello World");
+		mypara.appendChild(text);
+		list = document.getElementById("list");
+		list.appendChild(mypara);
+	}
+</script>
+</body>
+</html>

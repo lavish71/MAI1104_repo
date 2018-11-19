@@ -1,0 +1,53 @@
+#des {
+	margin-left: 50%;
+	padding-left: 100px;
+}
+table {
+	float: left;
+	padding-left: 20px;
+	text-align: left;
+	width: 910px;
+}
+#cen1, #cen2, #cen3, #cen4, #cen5{
+	text-align: center;
+	border-bottom: solid;
+	border-width: 0.3px;.
+}
+td {
+	padding-top: 0px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	border-width: 2px;
+	text-align: left;
+	width: 10px;
+}
+
+#col1, #col6, #col7 {
+	padding-left: 5px;
+	padding-right: 1.5px;
+	background-color: rgb(176,207,236);
+	color: rgb(110,158,194);
+}
+#col2 {
+	padding-left: 5px;
+	padding-right: 1.5px;
+	background-color: rgb(186,230,177);
+	color: rgb(69,161,110);
+}
+#col3, #col5 {
+	padding-left: 5px;
+	padding-right: 1.5px;
+	background-color: rgb(229,172,217);
+	color: rgb(141,72,135);
+}
+#col4 {
+	padding-left: 5px;
+	padding-right: 1.5px;
+	background-color: rgb(247,242,212);
+	color: rgb(214,190,162);
+}
+.bor {
+	border-bottom: dotted;
+	border-radius: 0px;
+	border-bottom-width: 0.5px;
+}

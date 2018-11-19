@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<h1>My Favourite Movies</h1>
+
+		<label class="container"><input type="checkbox" id="i1" onclick="img0()">Inception</label><br>
+		<label class="container"><input type="checkbox" id="i2" onclick="img1()">Eddie The Eagle</label><br>
+		<label class="container"><input type="checkbox" id="i3" onclick="img2()">Edge of Tomorrow</label><br>
+		<label class="container"><input type="checkbox" id="i4" onclick="img3()">World War Z</label><br>
+		<label class="container"><input type="checkbox" id="i5" onclick="img4()">Fast Five</label><br>
+		<label class="container"><input type="checkbox" id="i6" onclick="img5()">The Martian</label><br>
+
+	<img src="inception.jpg" id="pic1" height=300px width=300px style="display:none; float:left;">
+	<img src="EddietheEagle.jpg" id="pic2" height=300px width=300px style="display:none; float:left;">
+	<img src="edgeoftomorrow.jpg"  id="pic3" height=300px width=300px style="display:none; float:bottom;">
+	
+	<img src="worldwarz.jpg" id="pic4" height=300px width=300px style="display:none; float:left;">
+	<img src="fastfive.jpg" id="pic5" height=300px width=300px style="display:none; float:left;">
+	<img src="TheMartian.jpg" id="pic6" height=300px width=300px style="display:none; float:left;">
+
+	<script>
+		function img0() {
+			var checked = document.getElementById("i1");
+			var unchecked = document.getElementById("pic1");
+				if (checked.checked == true)
+				{
+        			unchecked.style.display = "block";
+        		} 
+    			else
+    			{
+        			unchecked.style.display = "none";
+        		}
+        			    }
+		function img1() {
+			var checked = document.getElementById("i2");
+			var unchecked = document.getElementById("pic2");
+				if (checked.checked == true)
+				{
+        			unchecked.style.display = "block";
+        		} 
+    			else
+    			{
+        			unchecked.style.display = "none";
+        		}
+        			    }
+		function img2() {
+			var checked = document.getElementById("i3");
+			var unchecked = document.getElementById("pic3");
+				if (checked.checked == true)
+				{
+        			unchecked.style.display = "block";
+        		} 
+    			else
+    			{
+        			unchecked.style.display = "none";
+        		}
+        			    }
+		function img3() {
+			var checked = document.getElementById("i4");
+			var unchecked = document.getElementById("pic4");
+				if (checked.checked == true)
+				{
+        			unchecked.style.display = "block";
+        		} 
+    			else
+    			{
+        			unchecked.style.display = "none";
+        		}
+        			    }
+		function img4() {
+			var checked = document.getElementById("i5");
+			var unchecked = document.getElementById("pic5");
+				if (checked.checked == true)
+				{
+        			unchecked.style.display = "block";
+        		} 
+    			else
+    			{
+        			unchecked.style.display = "none";
+        		}
+        			    }
+		function img5() {
+			var checked = document.getElementById("i6");
+			var unchecked = document.getElementById("pic6");
+				if (checked.checked == true)
+				{
+        			unchecked.style.display = "block";
+        		} 
+    			else
+    			{
+        			unchecked.style.display = "none";
+        		}
+        			    }
+	</script>
+</body>
+</html>

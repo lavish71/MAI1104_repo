@@ -1,0 +1,230 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Timetable</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <script type="text/javascript" src="myscript.js" async></script>
+</head>
+<body>
+  <div>
+        <table cellspacing="50" style="height: 100%">
+          <tbody>
+                <tr class="mar" id="spa">
+                <th></th>
+                <th id="cen1">Mon</th>
+                <th id="cen2">Tue</th>
+                <th id="cen3">Wed</th>
+                <th id="cen4">Thu</th>
+                <th id="cen5">Fri</th>
+              </tr>
+
+              <tr class="mar">
+                <td>08:00</td>
+                <td class="bor"></td>
+                <td class="bor"></td>
+                  <td rowspan="3" id="col1">
+                    <div id="col1">08:15</div>
+                    <div id="col1"><b>Lecture on Web<br>Technologies<b></div>
+                  </td>
+                <td class="bor"></td>
+                <td class="bor"></td>
+              </tr>
+
+              <tr class="mar">
+                <td>09:00</td>
+                <td class="bor"></td>
+                <td class="bor"></td>
+                <td class="bor"></td>
+                <td class="bor"></td>
+              </tr>
+
+              <tr class="mar">
+                <td>10:00</td>
+                  <td rowspan="3" id="col2">
+                    <div id="col2">10:15</div>
+                    <div id="col2"><b>Lecture in<br>Computer<br>Fundamentals<b></div>
+                  </td>
+                <td class="bor"></td>
+                <td class="bor"></td>
+                <td rowspan="2" id="col3">
+                  <div id="col3">10:15</div>
+                  <div id="col3"><b>Lecture in<br>Algorithms and<br>data structures<b></div>
+                </td>
+              </tr>
+
+              <tr class="mar">
+                <td>11:00</td>
+                <td class="bor"></td>
+                  <td rowspan="2" id="col4">
+                    <div id="col4">11:15</div>
+                    <div id="col4"><b>Project 1<br>Lecture</b></div>
+                  </td>
+                <td class="bor"></td>
+              </tr>
+
+              <tr class="mar">
+                <td>12:00</td>
+                  <td rowspan="3" id="col3">
+                    <div id="col3">12:15</div>
+                    <div id="col3"><b>Lecture in<br>Algorithms<br>and data<br>structures</b></div>
+                  </td>
+                <td class="bor"></td>
+                  <td rowspan="2" id="col1">
+                    <div id="col1">12:15</div>
+                    <div id="col1"><b>Lecture in Web<br>Technologies</b></div>
+                  </td>
+              </tr>
+
+                <tr class="mar">
+                <td>13:00</td>
+                <td class="bor"></td>
+                <td class="bor"></td>
+                <td class="bor"></td>
+              </tr>
+
+              <tr class="mar">
+                <td>14:00</td>
+                <td rowspan="3" id="col1">
+                  <div id="col1">14:15</div>
+                  <div id="col1"><b>Lecture in web<br>technologies</b></div>
+                </td>
+                <td class="bor"></td>
+                <td class="bor"></td>
+                <td class="bor"></td>
+              </tr>
+              <tr class="mar">
+                <td >15:00</td>
+                <td class="bor"></td>
+                <td class="bor"></td>
+                <td class="bor"></td>
+                <td class="bor"></td>
+              </tr>
+              <tr class="mar">
+                <td>16:00</td>
+                <td class="bor"></td>
+                <td class="bor"></td>
+                <td class="bor"></td>
+                <td class="bor"></td>
+              </tr>
+              <tr class="mar">
+                <td >17:00</td>
+                <td class="bor"></td>
+                <td class="bor"></td>
+                <td class="bor"></td>
+                <td class="bor"></td>
+                <td class="bor"></td>
+              </tr>
+            </tbody>
+        </table>
+        <p id="des"></p>
+    </div>
+    <div style="display: none;">
+        <div id="web">
+                <h2>Web Technologies</h2>
+                <p>In this course the focus is on the World Wide Web as a
+                   platform for interactive applications , publication of
+                   information and Social services.
+               </p>
+                <p>Development of web applications require broad knowledge of
+                   the underlying technology , formats and standards as the
+                   World Wide Web is based and in this topic , you learn about
+                   the underlying communication protocol HTTP, markup language
+                   HTML, XHTML and XML language for specifying formatting and
+                   transformations as CSS and XSLT , event - based programming
+                   Client - side and document model DOM , interactive graphics
+                   and multimedia content on the web.
+               </p>
+               <p> The course also provides an introduction to search engines
+                   and web index and aspects of content management as
+                   standardized descriptions of the content and rules of copyright.
+               </p>
+               <p>
+                   <a href="http://forsk.in/web-development.php" target="_blank">More...</a>
+               </p>
+            </div>
+
+            <div id="comp">
+                <h2>Computer Fundamentals</h2>
+                <p>The course will include terminology, principles and concepts
+                   of Construction and operation of various types of modern
+                   computers and other computer equipment. Brief historical
+                   overview of computer development. Structure ( organization )
+                   , functioning and realization of computers and computer
+                   systems.
+              </p>
+              <p>Computer Design on different levels , instruction format,
+                   addressing modes , processor architectures and types .
+                   Interface between hardware and software, linking components,
+                   interruptions , buses , inventory hierarchy and cache
+                   ( Eng . cache). Review of key computer technology devices
+                   ( peripheral devices) .
+               </p>
+               <p>Brief introduction to distributed systems , embedded
+                 ( "embedded " ) systems , parallel computers ,
+                 new technologies and new applications ( apps) .
+               </p>
+               <p>
+                   <a href="http://forsk.in/computer-science-fundamentals.php" target="_blank">More...</a>
+               </p>
+            </div>
+
+            <div id="algo">
+                <h2>Algorithms and data structures</h2>
+                <p>Methods for analyzing the efficiency of algorithms, splitter
+                  and Conquer techniques , recursive solution methods.
+                  Methods for ordering , searching and sorting of data.
+                  Data structures for effective retrieval of data ,
+                  dynamic programming and greed algorithms.
+               </p>
+               <p>Data structures for the creation of graphs and networks ,
+                 as well as methods for through running and exploration.
+                 Algorithms for finding the best path (s) and couplings
+                 ( matchings ) , spanning trees and maximum flow . theory
+                  problem complexity.
+               </p>
+               <p>Algorithms are expressed in language independent .
+               </p>
+               <p>
+                   <a href="http://forsk.in/industrial-c-programming.php" target="_blank">More ...</a>
+               </p>
+            </div>
+
+            <div id="pro">
+                <h2>Project 1</h2>
+                <p>Knowledge of methods and theories of organization of
+                  group programming projects. Understanding the interplay
+                  between process and product -oriented challenges and
+                  activities in a programming project.
+               </p>
+               <p>Practical skills in programming and integration of various
+                  components to assemble a larger software product.
+               </p>
+               <p>Have skills in teamwork and can reflect on both technical
+                  and organizational aspects of a programming project .
+               </p>
+               <p>
+                   <a href="http://forsk.in/iot.php" target="_blank">More...</a>
+               </p>
+            </div>
+        </div>
+  <script>
+    document.getElementById("col1").addEventListener("mouseover",demo1);
+    document.getElementById("col2").addEventListener("mouseover",demo2);
+    document.getElementById("col3").addEventListener("mouseover",demo3);
+    document.getElementById("col4").addEventListener("mouseover",demo4);
+    
+    function demo1(){
+      document.getElementById("des").innerHTML = web.innerHTML;
+    }
+    function demo2(){
+      document.getElementById("des").innerHTML = comp.innerHTML;
+    }
+    function demo3(){
+      document.getElementById("des").innerHTML = algo.innerHTML;
+    }
+    function demo4(){
+      document.getElementById("des").innerHTML = pro1.innerHTML;
+    }
+  </script>
+</body>
+</html>

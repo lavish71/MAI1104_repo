@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<p id = "demo"></p>
+	<script>
+		document.addEventListener("click", myFunction);
+		document.addEventListener("mouseover", myFunction1);
+		document.addEventListener("mouseout", myFunction2);
+		document.addEventListener("dblclick", myFunction3);
+		document.addEventListener("mousedown", myFunction4);
+
+// All functions //
+		function myFunction()
+		{
+			document.getElementById("demo").style.display = "block";
+			document.getElementById("demo").innerHTML = "HAHAHA I HACKED YOUR PC";
+		}
+		function myFunction1()
+		{
+			document.getElementById("demo").style.background = "red";
+		}
+		function myFunction2()
+		{
+			document.getElementById("demo").style.background = "yellow";
+		}
+		function myFunction3()
+		{
+			document.getElementById("demo").style.display = "none";
+		}
+		function myFunction4()
+		{
+			document.getElementById("demo").style.display = "block";
+			document.getElementById("demo").style.background = "green";
+			document.getElementById("demo").innerHTML = "HAHAHAHA I AM JOKING";
+		}
+	</script>
+</body>
+</html>
